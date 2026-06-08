@@ -114,26 +114,18 @@ Task1_Matching.ipynb
 
 ### Task 2
 
-Inlier Ratio Evaluation
+Homography Estimation and Image Warping
 
 ```bash
-Task2_Inlier_Evaluation.ipynb
+Task2_Homography.ipynb
 ```
 
 ### Task 3
 
-Homography Estimation and Image Warping
-
-```bash
-Task3_Homography.ipynb
-```
-
-### Task 4
-
 Optimization and Latency Profiling
 
 ```bash
-Task4_Optimization.ipynb
+Task3_Optimization.ipynb
 ```
 
 ---
