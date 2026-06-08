@@ -439,8 +439,5 @@ for idx in selected_frames:
     plt.show()
 
 
-# In[ ]:
-
-
 
 
