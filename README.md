@@ -45,16 +45,15 @@ Each Summer image has a corresponding Winter image captured at the same location
 ```text
 .
 ├── notebooks/
+│   ├── Setup & Environment Verification.ipynb
 │   ├── Task1_Matching.ipynb
-│   ├── Task2_Inlier_Evaluation.ipynb
 │   ├── Task3_Homography.ipynb
 │   └── Task4_Optimization.ipynb
 │
 ├── src/
 │   ├── Task1_Matching.py
-│   ├── Task2_Inlier_Evaluation.py
-│   ├── Task3_Homography.py
-│   └── Task4_Optimization.py
+│   ├── Task2_Homography.py
+│   └── Task3_Optimization_profiling.py
 │
 ├── outputs/
 │   ├── match_visualizations/
