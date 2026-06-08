@@ -58,7 +58,6 @@ Each Summer image has a corresponding Winter image captured at the same location
 ├── outputs/
 │   ├── match_visualizations/
 │   ├── warped_images/
-│   └── performance_results/
 │
 ├── requirements.txt
 └── README.md
