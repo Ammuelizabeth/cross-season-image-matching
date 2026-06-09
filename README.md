@@ -40,6 +40,26 @@ Each Summer image has a corresponding Winter image captured at the same location
 
 ---
 
+## Design Decisions
+
+### Why SuperPoint + LightGlue?
+
+The task involves matching images across extreme seasonal variations, where traditional handcrafted features often struggle due to changes in lighting, snow coverage, vegetation, and scene appearance.
+
+SuperPoint was selected because it learns robust and repeatable keypoints and descriptors that generalize well across seasonal changes.
+
+LightGlue was chosen as the matcher because it provides efficient transformer-based feature matching while maintaining high matching accuracy on challenging image pairs.
+
+### Why USAC_MAGSAC?
+
+Although deep feature matching significantly reduces mismatches, some outliers remain. USAC_MAGSAC was used for robust homography estimation because it provides stronger outlier rejection compared to standard RANSAC.
+
+### Why GPU Acceleration?
+
+The pipeline performs deep neural network inference for feature extraction and matching. Running the pipeline on an NVIDIA RTX 4060 GPU significantly reduces processing time compared to CPU execution.
+
+---
+
 ## Repository Structure
 
 ```text
@@ -266,6 +286,17 @@ Contains:
 - 5 homography warped alignment results
 
 ---
+
+## Sample Results
+
+### Feature Matching Example
+
+![Feature Matching]()
+
+### Homography Alignment Example
+
+![Warped Alignment](outputs/warped_images/frame250_warped.png)
+
 
 ## Conclusion
 
