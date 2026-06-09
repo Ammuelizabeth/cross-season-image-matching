@@ -261,6 +261,16 @@ Maximum Latency:
 
 ---
 
+## Latency Discussion
+
+The assessment specified a target latency of less than 50 ms per frame pair.
+
+After applying CUDA acceleration, image resizing, reduced keypoint extraction, and inference optimizations using `torch.no_grad()`, the pipeline achieved an average latency of 68.43 ms on an NVIDIA RTX 4060 Laptop GPU.
+
+While the strict latency target was not fully achieved, the optimization process reduced runtime significantly compared to the initial baseline while maintaining strong matching accuracy and geometric alignment performance.
+
+---
+
 ## Output Files
 
 The repository includes:
