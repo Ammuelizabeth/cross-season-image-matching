@@ -295,7 +295,7 @@ Contains:
 
 ### Homography Alignment Example
 
-![Warped Alignment](outputs/warped_images/frame250_warped.png)
+![Warped Alignment](outputs/warped_images/warp_250.png)
 
 
 ## Conclusion
