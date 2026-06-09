@@ -291,7 +291,7 @@ Contains:
 
 ### Feature Matching Example
 
-![Feature Matching]()
+![Feature Matching](outputs/match_visualizations/match_250.png)
 
 ### Homography Alignment Example
 
